@@ -11,13 +11,16 @@ static constexpr double kDefaultRotor4Angle = -1.57079632679;
 static constexpr double kDefaultRotor5Angle = -0.52359877559;
 
 // Default vehicle parameters for Asctec Firefly.
-static constexpr double kDefaultMass = 1.56779;
+// static constexpr double kDefaultMass = 1.56779;
+static constexpr double kDefaultMass = 4.04;
 static constexpr double kDefaultArmLength = 0.215;
 static constexpr double kDefaultInertiaXx = 0.0347563;
 static constexpr double kDefaultInertiaYy = 0.0458929;
 static constexpr double kDefaultInertiaZz = 0.0977;
-static constexpr double kDefaultRotorForceConstant = 8.54858e-6;
-static constexpr double kDefaultRotorMomentConstant = 1.6e-2;
+// static constexpr double kDefaultRotorForceConstant = 8.54858e-6;
+// static constexpr double kDefaultRotorMomentConstant = 1.6e-2;
+static constexpr double kDefaultRotorForceConstant = 7.2e-06;
+static constexpr double kDefaultRotorMomentConstant = 0.015;
 
 // Default physics parameters.
 static constexpr double kDefaultGravity = 9.81;
